@@ -10,7 +10,7 @@ export default function navbar() {
       className='navbar navbar-expand-lg fixed-top'
     >
       <div className='container-fluid'>
-        <a className='navbar-brand' href='#'>
+        <a className='navbar-brand' href='/'>
           <img
             src={Logo}
             alt='Logo do Gaia'
@@ -30,7 +30,7 @@ export default function navbar() {
             </a>
           </li>
           <li className='nav-item'>
-            <a target='_blank' className='nav-link' href='#'>
+            <a target='_blank' className='nav-link' href='/'>
               Regras
             </a>
           </li>
