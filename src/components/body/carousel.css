@@ -1,0 +1,18 @@
+.container-fluid {
+  padding: 0px;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+  height: 90vh;
+}
+
+#mainSLider .carousel-caption {
+  top: 30%;
+}
+
+#mainSLider .carousel-caption {
+}
+
+#mainSLider .carousel-caption {
+}
