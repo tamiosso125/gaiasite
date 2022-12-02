@@ -27,23 +27,9 @@ $(document).ready(function () {
       scrollTo = bannerSection;
     }
 
-    // if (btnId == 'about-menu') {
-    // scrollTo = aboutSection;
-    // } else if (btnId == 'legacy-menu') {
-    // scrollTo = servicesSection;
-    // } else if (btnId == 'contact-menu') {
-    // scrollTo = contactSection;
-    // } else {
-    // scrollTo = bannerSection;
-    // }
-
     $([document.documentElement, document.body]).animate({
       scrollTop: $(scrollTo).offset().top - 70
     }, 1500);
   });
 
 });
-
-// else {
-//   scrollTo = bannerSection;
-// }
